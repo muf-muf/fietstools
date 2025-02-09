@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0.5rem;
+}
+
+div.page-tools {
+    max-width: 800px;
+}
+
+/* input[type="number"] {
+    margin-right: 1.5rem;
+} */
+
+.form-result__highlight {
+    color: var(--bs-warning-text-emphasis);
+    font-weight: bold;
+}
+
+div.footer {
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: var(--bs-tertiary-color);
+}
