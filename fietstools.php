@@ -1,6 +1,6 @@
 <h4>Kettinglengte berekenen</h4>
 <form class="row g-3">
-    <span>Geef de lengte vanaf <b>midden van de cassette</b> tot het <b>midden van het crankstel</b> in <b><u>centimeters</u></b>:</span>
+    <span>Geef de lengte vanaf het <b>midden van de cassette</b> tot het <b>midden van het crankstel</b> in <b><u>centimeters</u></b>:</span>
     <div class="input-group">
         <span class="input-group-text" id="form__cassette-tot-crankstel--cm"><span><b>Centimeters:</b></span></span>
         <input type="number" class="form-control text-end" id="input-chainlength__cassetteCm" placeholder=0 min=0 oninput="calcChainLength()" required aria-label="Tanden tandwiel voor" aria-describedby="form__cassette-tot-crankstel--cm">
